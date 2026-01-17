@@ -9,7 +9,7 @@ public class ScreenTransitionHandler : MonoBehaviour
     [SerializeField]
     private Image _canvas;
 
-
+    Color _greyColor;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class ScreenTransitionHandler : MonoBehaviour
 
     public void InitializeToScreen()
     {
-        _canvas.color = Color.black;
+        _greyColor = _canvas.color;
     }
 
     public void Transition(bool state)
@@ -34,8 +34,8 @@ public class ScreenTransitionHandler : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
 
-        Color _startCol = state? Color.black : Color.clear;
-        Color _endCol = state? Color.clear : Color.black;
+        Color _startCol = state? _greyColor : Color.clear;
+        Color _endCol = state? Color.clear : _greyColor;
 
 
         while (time < 2f)

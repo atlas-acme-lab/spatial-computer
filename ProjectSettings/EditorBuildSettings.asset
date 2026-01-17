@@ -8,9 +8,41 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_spatial-computer/_Scenes/0_testbed.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/0_transitiontestbed.unity
+    guid: 083f88dedf7024e82901f773bb773c04
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/0_nditestbed.unity
+    guid: 8db6dbd61a8d043039c0b9446ce0561c
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/0_renderstreambase.unity
+    guid: 69c56175fdefc4a8cad86b1ed486d3a1
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/1_basear.unity
+    guid: cb33cdd926e1341bb9e8aafd32d55132
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/1_whiteboard.unity
+    guid: 209870aedaeb84e92badd86b7a6b12e0
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/0_transitiontestbedweb.unity
+    guid: 00edbb8cc235a4b09985df9a9d88e7a5
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/0_transitiontestbedandroid.unity
+    guid: e98729190235743f19baad40d4e0765c
   - enabled: 1
+    path: Assets/_spatial-computer/_Scenes/0_transitiontestbedboard.unity
+    guid: 3c5edc0f108bf40558915d47510d93d5
+  - enabled: 0
     path: Assets/_spatial-computer/_Scenes/0_toiotestbed.unity
     guid: 04e69cc4daef64aaf920891c978b6f4d
+  - enabled: 0
+    path: Assets/ar-foundation-samples/Assets/Scenes/ImageTracking/ImageTrackingWithMultiplePrefabs/ImageTrackingWithMultiplePrefabs.unity
+    guid: a1bf0e7b9cece455f81c1d2731ba76e7
+  - enabled: 0
+    path: Assets/_spatial-computer/_Scenes/1_aisl-demo.unity
+    guid: bc461ef13a7794dbe9eff648d32ce463
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0642b2cbf90e3424db18886a04b17141, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 119c1834804b94085b3f720bdabcd791, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: a625b4efc63cd4c558eafb3f4604afd6, type: 2}
+    com.unity.renderstreaming.settings: {fileID: 11400000, guid: 039337c008e9a5c44a60f957eae3e450, type: 2}

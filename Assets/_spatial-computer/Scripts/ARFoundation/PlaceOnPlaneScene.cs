@@ -25,6 +25,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [Tooltip("Reference to the AR Camera object.")]
         GameObject ARCamera;
 
+        
+
         /// <summary>
         /// Flag to know if the PlacedObject can be placed or moved.
         /// </summary>
@@ -34,6 +36,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
         {
             m_RaycastManager = GetComponent<ARRaycastManager>();
             isPlacementActive = false;
+
+            
         }
 
         bool TryGetTouchPosition(out Vector2 touchPosition)
